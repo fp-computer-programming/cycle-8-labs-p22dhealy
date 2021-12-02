@@ -2,6 +2,7 @@
 
 def email(names):
     for x in names:
-        print("Hi {0}, You're invited to my party on Friday!").format(x)
+        print("Hi {0}, You're invited to my party on Friday!".format(x))
 
-email('Declan','Jack','Sam')
+email(['Declan','Jack','Sam'])
+
